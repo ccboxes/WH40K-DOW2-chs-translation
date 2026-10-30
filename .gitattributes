@@ -1,0 +1,19 @@
+# 通用文本规则先写，具体规则后写（Git 后匹配的规则优先）。
+* text=auto eol=lf
+
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.jsonc text eol=lf
+*.ndjson text eol=lf
+*.tsv text eol=lf
+*.txt text eol=lf
+*.sh text eol=lf
+
+# UCS 是 UTF-16LE + BOM + CRLF，必须按二进制处理：
+# 禁止 EOL 转换、三方合并和文本 diff，避免编码被破坏或出现冲突标记。
+*.ucs binary
+*.sga binary
+
+# font_mapping.ini 使用 CRLF，且是发布物，保持字节原样。
+*.ini binary

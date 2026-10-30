@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 生成物
+work/
+build/
+dist/
+
+# 本地配置（含本机路径，不公开发布）
+AGENTS.md
+opencode.jsonc
+
+# 编辑器/系统
+.idea/
+.vscode/
+*.tmp
+Thumbs.db
+desktop.ini

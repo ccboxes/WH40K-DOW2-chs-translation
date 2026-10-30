@@ -1,0 +1,19 @@
+# 术语表（LinguaGacha 导入用）
+# 格式：英文<TAB>中文<TAB>备注
+# 初始条目只放争议较小的阵营/世界观术语；翻译前请整体审阅。
+# 修改后运行 python -m dow2chs export 会重新生成 work/lingua/input/glossary.json。
+src	dst	info
+Space Marine	星际战士	阵营
+Space Marines	星际战士	阵营
+Ork	兽人	阵营
+Orks	兽人	阵营
+Eldar	灵族	阵营
+Tyranid	泰伦虫族	阵营
+Tyranids	泰伦虫族	阵营
+Chaos	混沌	阵营/形容词
+Imperial Guard	帝国卫队	阵营
+Adeptus Astartes	阿斯塔特修士	组织
+Blood Ravens	血鸦	战团
+Waaagh!	WAAAGH!	兽人战吼
+Warp	亚空间	世界观
+Exterminatus	灭绝令	世界观
